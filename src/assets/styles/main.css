@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat;
+  letter-spacing: -0.015em;
+  background: #F6F6F6;
+}
+
+nav{
+  position:fixed;
+  z-index: 5;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 15px 0px;
+
+  background-color: rgb(0,0,0, 0.45);
+  color: white;
+}
+
+nav img{
+  margin-left: 50px;
+  width: 60%;
+}
+
+nav img:hover{
+  transform: scale(1.05);
+}
+
+.front-page img{
+    transform: scale(0.9);
+    /* height: 28%; */
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+nav ul li{
+  margin-right: 35px;
+}
+
+nav li:last-of-type{
+  margin-right: 80px;
+}
+
+nav a:hover{
+ font-weight: 600;
+}
+
+nav a{
+  cursor: pointer;
+  text-decoration: none;
+  color:white;
+  font-weight:normal;
+}
+
+.front-page{
+  min-height: 100vh;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url(/Theme.jpg),-webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),url(/Theme.jpg),-webkit-linear-gradient(rgba(255, 0, 0, 1), rgba(255, 0, 0, 1));
+  background-attachment: fixed;
+  background-size: 100%;
+
+}
+
+.front-page div{
+  font-size: 64px;
+  font-style: normal;
+  width: 70%;
+  font-weight: bold;
+  line-height: 80px;
+  padding: 50px 50px;
+  color: white;
+}
+
+.info-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5% 10%;
+}
+
+.content-info{
+  margin: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+
+}
+
+.content-text{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  width: 50%;
+}
+
+.content-info img{
+  width: 30%;
+}
+
+.soon-section{
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  color: white;
+  background:-webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/pasupati-2.png);
+  background-attachment: fixed;
+  padding: 250px 100px;
+  background-repeat: no-repeat;
+}
+
+.soon-section h2{
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 60px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.soon-section p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  margin: 0px;
+}
+
+.socials-section{
+  margin: 80px 200px;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #54595F;
+}
+
+h4{
+  margin: 20px 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 36px;
+  color: #54595F;
+  font-size: 24px;
+}
+
+.social-icons{
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+}
+
+.social-icons img{
+  width: 95%;
+  cursor: pointer;
+}
+
+
+footer{
+  background:-webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/mandala.png);
+  /* background-attachment: fied */
+  border: 1px solid rgba(68, 68, 68, 0.2);
+  color: white;
+}
+
+footer h5{
+  margin: 0px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+
+}
+
+.sub-info{
+  margin: 100px 0px 50px 80px;
+  width: 40%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+}
+
+.banner-bottom{
+  padding: 16px;
+  text-align: center;
+  color: white;
+  background: black;
+  border: solid 4px black;
+}
+
+
+.light-nav{
+  z-index: 12;
+  background: white;
+  color: #54595F;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  box-shadow: 0px -7px 20px gray;
+}
+
+.light-nav img{
+  width: 70%;
+}
+
+.light-nav a{
+  cursor: pointer;
+  text-decoration: none;
+  color:#54595F;
+  font-weight:normal;
+}
